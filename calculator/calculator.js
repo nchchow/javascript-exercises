@@ -15,11 +15,12 @@ function multiply (factors) {
 }
 
 function power(b, n) {
-	let product = 1;
-	for(var i = 0; i < n; ++i) {
-		product *= b;
-	}
-	return product;
+	// let product = 1;
+	// for(var i = 0; i < n; ++i) {
+	// 	product *= b;
+	// }
+	// return product;
+	Math.pow(b, n);
 }
 
 function factorial(n) {
